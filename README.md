@@ -1,6 +1,6 @@
 # Droplinked Solidity Contracts
 
-This repository contains the droplinked's smart-contract source code for EVM chains that droplinked integrates with, including : Polygon, Binance, Hedera and Ripple sidechain
+This repository contains the droplinked's smart-contract source code for EVM chains that droplinked integrates with.
 
 ## Documentations
 
@@ -78,7 +78,7 @@ Run the following command to deploy :
 `npx hardhat run scripts/deploy.ts --network $network_name_here$`
 For instance, running
 
-npx hardhat run scripts/deploy.ts --network polygon_mumbai
+npx hardhat run scripts/deploy.ts --network bitlayer
 would result in something like this
 
 [ ✅ ] Deployer deployed to: 0x34C4db97cE4cA2cce48757F85C954C5647124106 with fee: 100 and heartbeat: 120
